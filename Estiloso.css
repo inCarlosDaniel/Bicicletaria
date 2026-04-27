@@ -1,0 +1,47 @@
+h1 {    /* h1 é o seletor, ou seja, o elemento HTML que queremos estilizar */
+
+    color : blue; /*color é a propriedade e blue é o valor*/
+
+    font-family : "bauhaus 93";  /*font-family é a propriedade e bauhaus 93 é o valor*/
+
+    text-align : center;  /*text-align é a propriedade e center é o valor*/
+
+}
+
+h2 {
+
+    color :blueviolet;  /* vai deixar a cor do h2 azul violeta */
+
+    text-align: center;  /* vai centralizar o texto do h2 */
+}
+h3 {
+
+    color :red;
+    
+
+}
+
+u1 {
+    color: blue;
+}
+
+h5 {
+    color: blueviolet;
+}
+
+table {
+
+    border: 1px solid black; /*border é a propriedade e 1px solid black é o valor*/
+
+    width: 100%; /*width é a propriedade e 100% é o valor*/
+
+    text-align: center; /*text-align é a propriedade e center é o valor*/
+
+}
+
+body {
+
+    font-family: arial; /*font-family é a propriedade e arial é o valor*/
+
+ }
+
