@@ -1,159 +1,123 @@
-<html> <!-- Inicio do documento HTML -->
+﻿<!DOCTYPE html>
 
-    <head> <!-- Inicio da secao de cabecalho do documento -->
+<html lang="pt-BR">
 
-       <link rel="styLesheet" type="text/css" href="Estiloso.css"> <!-- Link para o arquivo CSS externo -->
+<head>
 
-    </head> <!-- Fim da secao de cabecalho -->
+    <meta charset="UTF-8">
 
-    <body> <!-- Inicio do corpo da pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <h1> BICICLETARIA </h1> <!-- Titulo principal da loja -->
+    <title>PeÃ§as - Bicicletaria</title>
 
-        <h2> Loja de Bikes, Peças e Serviços </h2> <!-- Subtitulo com a descricao da loja -->
+    <link rel="stylesheet" type="text/css" href="Estiloso.css">
 
-    <u1> <!-- Lista com links de navegacao do site -->
+</head>
 
-        <li> <!-- Item da lista para a pagina inicial -->
+<body>
 
-            <a href="index.html"> <!-- Link para a pagina Home -->
+    <header class="site-header">
 
-                 Home
+        <h1>BICICLETARIA</h1>
 
-             </a> <!-- Fim do link -->
+        <h2>Loja de Bikes, PeÃ§as e ServiÃ§os</h2>
 
-        </li> <!-- Fim do item da lista -->
+    </header>
 
-        <li> <!-- Item da lista para a pagina MTB -->
 
-            <a href="MTB.html"> <!-- Link para a pagina de Mountain Bikes -->
 
-             Montain Bikes 
+    <nav class="menu-principal">
 
-            </a> <!-- Fim do link -->
+        <ul>
 
-            </li> <!-- Fim do item da lista -->
+            <li><a href="Index.html">Home</a></li>
 
-        <li> <!-- Item da lista para a pagina Speed -->
+            <li><a href="MTB.html">Montain Bikes</a></li>
 
-            <a href="Speed.html"> <!-- Link para a pagina de Speed Bikes -->
+            <li><a href="Speed.html">Speed Bikes</a></li>
 
-            Speed Bikes
+            <li><a href="Gravel.Html">Gravel</a></li>
 
-            </a> <!-- Fim do link -->
+            <li><a href="PeÃ§as.html">PeÃ§as</a></li>
 
-         </li> <!-- Fim do item da lista -->
+        </ul>
 
-        <li> <!-- Item da lista para a pagina Gravel -->
+    </nav>
 
-            <a href="Gravel.html"> <!-- Link para a pagina Gravel -->
 
-            Gravel 
 
-            </a> <!-- Fim do link -->
+    <main class="conteudo reveal">
 
-        </li> <!-- Fim do item da lista -->
+        <table class="bike-table">
 
-        <li> <!-- Item da lista para a pagina de pecas -->
+            <thead>
 
-            <a href="Peças.html"> <!-- Link para a pagina de pecas -->
+                <tr>
 
-            Peças
+                    <th><h3>Sram Eagle Gold 12v</h3></th>
 
-            </a> <!-- Fim do link -->
+                    <th><h3>Kit Absoluta 20v</h3></th>
 
-        </li> <!-- Fim do item da lista -->
+                </tr>
 
-        <table Border = "1"> <!-- Tabela com os produtos de pecas -->
+            </thead>
 
-            <tr> <!-- Linha com os nomes dos produtos -->
+            <tbody>
 
-                <td> <!-- Celula do primeiro produto -->
+                <tr>
 
-                      <h3> Sram Eagle Gold 12v </h3> <!-- Nome do primeiro produto -->
+                    <td><img src="Imagens/GRUPO-SRAM-XX1-EAGLE-GOLD-12V-COMPLETO.jpg" alt="Sram Eagle Gold 12v"></td>
 
-                </td> <!-- Fim da celula -->
+                    <td><img src="Imagens/KIT-ABSOLUTE-2X10-20V-A7-CAMBIOS+TROCADOR-K7.jpg" alt="Kit Absoluta 20v"></td>
 
-                <td> <!-- Celula do segundo produto -->
+                </tr>
 
-                    <h3> Kit Absoluta 20v </h3> <!-- Nome do segundo produto -->
+                <tr>
 
-                </td> <!-- Fim da celula -->
+                    <td>
 
-            </tr> <!-- Fim da linha -->
+                        <ul class="descricao-produto">
 
-            <tr> <!-- Linha com as imagens dos produtos -->
+                            <li>Valor:</li>
 
-                <td> <!-- Celula com a imagem do primeiro produto -->
+                            <li class="preco">R$ 948,00</li>
 
-                        <p>
+                        </ul>
 
-        <IMG SRC="Imagens/GRUPO-SRAM-XX1-EAGLE-GOLD-12V-COMPLETO.jpg"> <!-- Imagem do primeiro item -->
+                    </td>
 
-    </p>
+                    <td>
 
-                </td> <!-- Fim da celula -->
+                        <ul class="descricao-produto">
 
-                    <td> <!-- Celula com a imagem do segundo produto -->
+                            <li>Valor:</li>
 
-                        <p>
+                            <li class="preco">R$ 754,00</li>
 
-        <IMG SRC="Imagens/KIT-ABSOLUTE-2X10-20V-A7-CAMBIOS+TROCADOR-K7.jpg"> <!-- Imagem do segundo item -->
+                        </ul>
 
-        </p>       
+                    </td>
 
-                  </td> <!-- Fim da celula --> 
+                </tr>
 
-            </tr> <!-- Fim da linha -->
+            </tbody>
 
-            <tr> <!-- Linha com os valores dos produtos -->
+        </table>
 
-                <td> <!-- Celula com o valor do primeiro produto -->
+    </main>
 
-                    <u1> <!-- Lista com informacoes do produto -->
 
-                        <li> <!-- Rotulo do preco -->
 
-                            Valor:
+    <footer>
 
-                            </li> <!-- Fim do rotulo -->
+        <h5>Ruas das Bikes n*77 Whatsapp: 61 9884-3483</h5>
 
-                            <li> <!-- Preco do primeiro produto -->
+    </footer>
 
-                            948,00
 
-                        </li> <!-- Fim do preco -->
 
-                    </u1> <!-- Fim da lista -->
+    <script src="vibe-bike.js"></script>
 
-                </td> <!-- Fim da celula -->
+</body>
 
-                    <td> <!-- Celula com o valor do segundo produto -->
-
-                         <u1> <!-- Lista com informacoes do produto -->
-
-                        <li> <!-- Rotulo do preco -->
-
-                             Valor:
-
-                            </li> <!-- Fim do rotulo -->
-
-                            <li> <!-- Preco do segundo produto -->
-                           
-                             754,00
-
-                        </li> <!-- Fim do preco -->
-
-                    </u1> <!-- Fim da lista -->
-                    
-                  </td> <!-- Fim da celula --> 
-
-            </tr> <!-- Fim da linha -->
-            
-        </table> <!-- Fim da tabela -->
-
-    <h5>  Ruas das Bikes n*77 Whatsapp: 61 9884-3483 </h5> <!-- Informacoes de contato da loja -->
-
-    </body> <!-- Fim do corpo da pagina -->
-
-</html> <!-- Fim do documento HTML -->
+</html>

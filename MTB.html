@@ -1,141 +1,123 @@
-<html> <!-- Inicio do documento HTML -->
+﻿<!DOCTYPE html>
 
-    <head> <!-- Inicio da secao de cabecalho do documento -->
-        <link rel="styLesheet" type="text/css" href="Estiloso.css"> <!-- Link para o arquivo CSS externo -->
-    </head> <!-- Fim da secao de cabecalho -->
+<html lang="pt-BR">
 
-    <body> <!-- Inicio do corpo da pagina -->
+<head>
 
-        <h1> BICICLETARIA </h1> <!-- Titulo principal da loja -->
+    <meta charset="UTF-8">
 
-        <h2> Loja de Bikes, Peças e Serviços </h2> <!-- Subtitulo com a descricao da loja -->
-        
-   <u1> <!-- Lista com links de navegacao do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <li> <!-- Item da lista para a pagina inicial -->
+    <title>Montain Bikes - Bicicletaria</title>
 
-            <a href="index.html"> <!-- Link para a pagina Home -->
+    <link rel="stylesheet" type="text/css" href="Estiloso.css">
 
-                 Home
+</head>
 
-             </a> <!-- Fim do link -->
+<body>
 
-        </li> <!-- Fim do item da lista -->
+    <header class="site-header">
 
-        <li> <!-- Item da lista para a pagina MTB -->
+        <h1>BICICLETARIA</h1>
 
-            <a href="MTB.html"> <!-- Link para a pagina de Mountain Bikes -->
+        <h2>Loja de Bikes, PeÃ§as e ServiÃ§os</h2>
 
-             Montain Bikes 
+    </header>
 
-            </a> <!-- Fim do link -->
 
-            </li> <!-- Fim do item da lista -->
 
-        <li> <!-- Item da lista para a pagina Speed -->
+    <nav class="menu-principal">
 
-            <a href="Speed.html"> <!-- Link para a pagina de Speed Bikes -->
+        <ul>
 
-            Speed Bikes
+            <li><a href="Index.html">Home</a></li>
 
-            </a> <!-- Fim do link -->
+            <li><a href="MTB.html">Montain Bikes</a></li>
 
-         </li> <!-- Fim do item da lista -->
+            <li><a href="Speed.html">Speed Bikes</a></li>
 
-        <li> <!-- Item da lista para a pagina Gravel -->
+            <li><a href="Gravel.Html">Gravel</a></li>
 
-            <a href="Gravel.html"> <!-- Link para a pagina Gravel -->
+            <li><a href="PeÃ§as.html">PeÃ§as</a></li>
 
-            Gravel 
+        </ul>
 
-            </a> <!-- Fim do link -->
+    </nav>
 
-        </li> <!-- Fim do item da lista -->
 
-        <li> <!-- Item da lista para a pagina de pecas -->
 
-            <a href="PeÃ§as.html"> <!-- Link para a pagina de pecas -->
+    <main class="conteudo reveal">
 
-            Peças
+        <table class="bike-table">
 
-            </a> <!-- Fim do link -->
+            <thead>
 
-        </li> <!-- Fim do item da lista -->
+                <tr>
 
-           <table border = "1"> <!-- Tabela com os modelos de MTB -->
+                    <th><h3>Montain Bike Lotus</h3></th>
 
-            <tr> <!-- Linha com os nomes dos produtos -->
+                    <th><h3>Montain Bike Lotus Glide</h3></th>
 
-                <td> <!-- Celula do primeiro produto -->
+                </tr>
 
-                      <h3> Montain Bike Lotus <h3> <!-- Nome do primeiro produto -->
+            </thead>
 
-                </td> <!-- Fim da celula -->
+            <tbody>
 
-                <td> <!-- Celula do segundo produto -->
+                <tr>
 
-                    <h3>  Montain Bike Lotus Glide </h3> <!-- Nome do segundo produto -->
+                    <td><img src="Imagens/BICICLETA_MTB29_GRUPO_SHIMANO_21_VEL_LOTUS_LARAN.JPG" alt="Montain Bike Lotus"></td>
 
-                </td> <!-- Fim da celula -->
+                    <td><img src="Imagens/BICICLETA-MTB-29-SHIMANO-OX-GLIDE-15-VERM.JPG" alt="Montain Bike Lotus Glide"></td>
 
-            </tr> <!-- Fim da linha -->
+                </tr>
 
-            <tr> <!-- Linha com as imagens dos produtos -->
+                <tr>
 
-                <td> <!-- Celula com a imagem do primeiro produto -->
+                    <td>
 
-                    <p> 
+                        <ul class="descricao-produto">
 
-                      <IMG SRC="Imagens/BICICLETA_MTB29_GRUPO_SHIMANO_21_VEL_LOTUS_LARAN.JPG"> <!-- Imagem da primeira bicicleta MTB -->
-                     
-                    </p>
+                            <li>Valor:</li>
 
-                </td> <!-- Fim da celula -->
+                            <li class="preco">R$ 58.000,00</li>
 
-                    <td> <!-- Celula com a imagem do segundo produto -->
+                        </ul>
 
-                      <p> 
+                    </td>
 
-                      <IMG SRC="Imagens/BICICLETA-MTB-29-SHIMANO-OX-GLIDE-15-VERM.JPG"> <!-- Imagem da segunda bicicleta MTB -->
-                    
-                    </p>
+                    <td>
 
-                  </td> <!-- Fim da celula --> 
+                        <ul class="descricao-produto">
 
-            </tr> <!-- Fim da linha -->
+                            <li>Valor:</li>
 
-            <tr> <!-- Linha com os valores dos produtos -->
+                            <li class="preco">R$ 63.260,00</li>
 
-                <td> <!-- Celula com o valor do primeiro produto -->
+                        </ul>
 
-                    <u1> <!-- Lista com informacoes do produto -->
+                    </td>
 
-                    <li> Valor: </li> <!-- Rotulo do preco -->
+                </tr>
 
-                    <li> R$ 58.000,00 </li> <!-- Preco do primeiro produto -->
+            </tbody>
 
-                       </u1> <!-- Fim da lista -->    
+        </table>
 
-                </td> <!-- Fim da celula -->
+    </main>
 
-                    <td> <!-- Celula com o valor do segundo produto -->
 
-                         <u1> <!-- Lista com informacoes do produto -->
 
-                    <li> Valor: </li> <!-- Rotulo do preco -->
+    <footer>
 
-                    <li> R$ 63.260,00 </li> <!-- Preco do segundo produto -->
+        <h5>Ruas das Bikes n*77 Whatsapp: 61 9884-3483</h5>
 
-                       </u1> <!-- Fim da lista -->    
-                    
-                  </td> <!-- Fim da celula --> 
+    </footer>
 
-            </tr> <!-- Fim da linha -->
-            
-        </table> <!-- Fim da tabela -->
 
-    <h5>  Ruas das Bikes n*77 Whatsapp: 61 9884-3483 </h5> <!-- Informacoes de contato da loja -->
 
-    </body> <!-- Fim do corpo da pagina -->
+    <script src="vibe-bike.js"></script>
 
-</html> <!-- Fim do documento HTML -->
+</body>
+
+</html>
